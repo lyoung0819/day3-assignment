@@ -27,14 +27,14 @@
 
 .nav > h2 {
     display: flex;
-    padding-left: 30px;
+    padding-left: 7%;
     width: 300px;
     align-items: center;
 }
 
 .nav-links {
     display: flex;
-    padding-top: 15px;
+    padding-top: 10px;
     justify-content: space-around;
     align-items: center;
     width: 70vw;
@@ -146,7 +146,7 @@
 }
 
 #img-map {
-    height: 150px;
+    height: 200px;
     padding-left: 120px;
     position: relative;
     left: 40px;
@@ -157,7 +157,7 @@
     width: 400px;
     justify-content: space-evenly;
     position: relative;
-    left: 40px;
+    left: 60px;
 }
 
 .columns-flexXTRASM {
