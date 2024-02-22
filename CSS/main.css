@@ -1,0 +1,158 @@
+
+* {
+    margin: 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20vw 1fr 20vw;
+    grid-template-rows: 10vh 80vh 50vh 20vh;
+    grid-template-areas: 
+    "nav nav nav"
+    "backimg backimg backimg"
+    ". contentbox ."
+    "footer footer footer";
+}
+
+.nav {
+    grid-area: nav;
+    background-color: black;
+    color: white;
+}
+.griottheatre > h2 {
+    display: inline;
+    width: 300px;
+    background-color: blueviolet;
+    text-align: center;
+    padding-top: 15px; 
+    font-weight: 100;
+}
+
+/*  
+.griottheatre > a {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}*/
+
+/* Grid Area: Nav Bar */
+.nav-links {
+    display: flex;
+    padding-top: 15px;
+}
+
+.nav-links > a {
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* Grid Area: Background Image */
+.backimg {
+    grid-area: backimg;
+}
+
+.backimg > img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Grid Area: Content / Show Cards */
+
+    /* Month Selector Box */
+.contentbox {
+    grid-area: contentbox;
+}
+
+.button {
+    height: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#MonthSelector {
+    width: 850px;
+    margin-top: 70px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+    /* Show Cards Box */
+.allcards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    padding-left: 15px;;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border-bottom: 1px solid gray;
+}
+
+.show-img {
+    width: 150px;
+    height: 125px;
+}
+
+.text-flexparent {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 15px;
+}
+
+.button-boxparent {
+    display: flex;
+    flex-direction: row-reverse;
+    max-height: 40px;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+
+.readmore-button {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* Grid Area: Footer */
+.footer {
+    grid-area: footer;
+    height: 250px;
+    background-color: black;
+    display: flex;
+
+}
+
+#img-map {
+    height: 150px;
+    padding-left: 120px;
+}
+
+.footer-flexLG {
+    display: flex;
+    padding-top: 40px;
+}
+
+.sitemap-flexSM {
+    display: flex;
+    margin-left: 100px;
+}
+
+.sitemap-flexSM > div {
+   
+}
+
+.columns-flexXTRASM {
+    color: white;
+    display: flex;
+}
