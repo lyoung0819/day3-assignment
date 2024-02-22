@@ -50,11 +50,21 @@
 /* Grid Area: Background Image */
 .backimg {
     grid-area: backimg;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .backimg > img {
     width: 100%;
-    height: 100%;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 600%;
 }
 
 
@@ -64,6 +74,7 @@
     /* Month Selector Box */
 .contentbox {
     grid-area: contentbox;
+    margin-top: 140px;
 }
 
 .button {
