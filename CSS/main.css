@@ -1,6 +1,7 @@
 
 * {
     margin: 0px;
+    font: AmazonLite;
 }
 
 .grid-container {
@@ -14,35 +15,32 @@
     "footer footer footer";
 }
 
+
+
+/* Grid Area: Nav Bar */
 .nav {
     grid-area: nav;
     background-color: black;
     color: white;
-}
-.griottheatre > h2 {
-    display: inline;
-    width: 300px;
-    background-color: blueviolet;
-    text-align: center;
-    padding-top: 15px; 
-    font-weight: 100;
-}
-
-/*  
-.griottheatre > a {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-}*/
+}
 
-/* Grid Area: Nav Bar */
+.nav > h2 {
+    display: flex;
+    padding-left: 30px;
+    width: 300px;
+    align-items: center;
+}
+
 .nav-links {
     display: flex;
     padding-top: 15px;
+    justify-content: space-around;
+    align-items: center;
+    width: 70vw;
 }
 
 .nav-links > a {
-    width: 100%;
     color: white;
     text-decoration: none;
 }
