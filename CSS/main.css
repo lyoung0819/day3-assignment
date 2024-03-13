@@ -5,9 +5,10 @@
 }
 
 .grid-container {
+    min-height: 100vh;
     display: grid;
     grid-template-columns: 20vw 1fr 20vw;
-    grid-template-rows: 10vh 80vh 50vh 20vh;
+    grid-template-rows: 10vh 80vh auto 20vh;
     grid-template-areas: 
     "nav nav nav"
     "backimg backimg backimg"
@@ -147,7 +148,7 @@
 
 #img-map {
     height: 200px;
-    padding-left: 120px;
+    padding-left: 100px;
     position: relative;
     left: 40px;
 }
@@ -169,9 +170,10 @@
 
 .column {
     padding-left: 50px;
+    top: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start
 }
 
 .column > h2 {
